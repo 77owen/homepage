@@ -16,7 +16,8 @@
         "free": "Libre",
         "used": "Usado",
         "load": "Carga",
-        "cpu": "CPU"
+        "cpu": "CPU",
+        "mem": "MEM"
     },
     "docker": {
         "rx": "Recibido",
@@ -453,14 +454,19 @@
         "books": "Libros"
     },
     "mylar": {
-        "issues": "Issues",
+        "issues": "Cuestiones",
         "series": "Series",
-        "wanted": "Wanted"
+        "wanted": "Buscado"
     },
     "photoprism": {
-        "albums": "Albums",
-        "photos": "Photos",
-        "videos": "Videos",
-        "people": "People"
+        "albums": "Álbumes",
+        "photos": "Fotos",
+        "videos": "Vídeos",
+        "people": "Personas"
+    },
+    "diskstation": {
+        "days": "Days",
+        "uptime": "Uptime",
+        "volumeAvailable": "Available"
     }
 }
