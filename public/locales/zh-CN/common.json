@@ -16,8 +16,8 @@
         "free": "空闲",
         "used": "已用",
         "load": "负载",
-        "cpu": "CPU",
-        "mem": "MEM"
+        "cpu": "处理器",
+        "mem": "内存"
     },
     "docker": {
         "rx": "接收",
@@ -187,8 +187,8 @@
     "proxmox": {
         "mem": "内存",
         "cpu": "处理器",
-        "lxc": "LXC",
-        "vms": "VMs"
+        "lxc": "容器",
+        "vms": "虚拟机"
     },
     "unifi": {
         "users": "用户",
@@ -230,8 +230,8 @@
         "45-day": "有雾",
         "48-day": "有雾",
         "51-day": "小雨",
-        "73-night": "Snow",
-        "75-day": "Heavy Snow",
+        "73-night": "中雪",
+        "75-day": "大雪",
         "1-night": "大部晴朗",
         "2-day": "多云",
         "2-night": "多云",
@@ -256,10 +256,10 @@
         "66-night": "Freezing Rain",
         "67-day": "Freezing Rain",
         "67-night": "Freezing Rain",
-        "71-day": "Light Snow",
-        "71-night": "Light Snow",
-        "73-day": "Snow",
-        "75-night": "Heavy Snow",
+        "71-day": "小雪",
+        "71-night": "小雪",
+        "73-day": "中雪",
+        "75-night": "大雪",
         "77-day": "Snow Grains",
         "77-night": "Snow Grains",
         "80-day": "Light Showers",
@@ -282,7 +282,7 @@
     "quicklaunch": {
         "bookmark": "书签",
         "service": "服务",
-        "search": "Search",
+        "search": "搜索",
         "custom": "Custom"
     },
     "homebridge": {
@@ -311,8 +311,8 @@
         "playlists": "Playlists"
     },
     "truenas": {
-        "load": "System Load",
-        "uptime": "Uptime",
+        "load": "系统负载",
+        "uptime": "运行时间",
         "alerts": "警报",
         "time": "{{value, number(style: unit; unitDisplay: long;)}}"
     },
@@ -392,10 +392,10 @@
         "seed": "做种"
     },
     "mikrotik": {
-        "cpuLoad": "CPU Load",
-        "memoryUsed": "Memory Used",
-        "uptime": "Uptime",
-        "numberOfLeases": "Leases"
+        "cpuLoad": "处理器负载",
+        "memoryUsed": "内存使用",
+        "uptime": "运行时间",
+        "numberOfLeases": "已连接"
     },
     "xteve": {
         "streams_all": "All Streams",
@@ -403,10 +403,10 @@
         "streams_xepg": "XEPG Channels"
     },
     "opnsense": {
-        "cpu": "CPU Load",
-        "memory": "Active Memory",
-        "wanUpload": "WAN Upload",
-        "wanDownload": "WAN Download"
+        "cpu": "处理器负载",
+        "memory": "空闲内存",
+        "wanUpload": "WAN上传",
+        "wanDownload": "WAN下载"
     },
     "moonraker": {
         "printer_state": "Printer State",
@@ -430,10 +430,10 @@
         "status": "Status"
     },
     "proxmoxbackupserver": {
-        "datastore_usage": "Datastore",
-        "failed_tasks_24h": "Failed Tasks 24h",
-        "cpu_usage": "CPU",
-        "memory_usage": "Memory"
+        "datastore_usage": "数据存储",
+        "failed_tasks_24h": "24h失败任务",
+        "cpu_usage": "处理器",
+        "memory_usage": "内存"
     },
     "immich": {
         "users": "Users",
@@ -442,31 +442,31 @@
         "storage": "Storage"
     },
     "uptimekuma": {
-        "up": "Sites Up",
-        "down": "Sites Down",
-        "uptime": "Uptime",
-        "incident": "Incident",
+        "up": "在线网站",
+        "down": "离线网站",
+        "uptime": "运行时间",
+        "incident": "严重事件",
         "m": "m"
     },
     "komga": {
-        "libraries": "Libraries",
-        "series": "Series",
-        "books": "Books"
+        "libraries": "书库",
+        "series": "系列",
+        "books": "书刊"
     },
     "mylar": {
-        "series": "Series",
+        "series": "系列",
         "issues": "Issues",
         "wanted": "Wanted"
     },
     "photoprism": {
-        "albums": "Albums",
-        "photos": "Photos",
-        "videos": "Videos",
-        "people": "People"
+        "albums": "相册",
+        "photos": "照片",
+        "videos": "视频",
+        "people": "人物"
     },
     "diskstation": {
-        "uptime": "Uptime",
-        "volumeAvailable": "Available",
-        "days": "Days"
+        "uptime": "运行时间",
+        "volumeAvailable": "剩余存储",
+        "days": "天"
     }
 }
