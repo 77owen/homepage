@@ -140,7 +140,7 @@
     "transmission": {
         "download": "Bajada",
         "upload": "Subida",
-        "leech": "Leech",
+        "leech": "Sanguijuela",
         "seed": "Semillas"
     },
     "jackett": {
@@ -468,5 +468,17 @@
         "days": "Días",
         "uptime": "Funcionando",
         "volumeAvailable": "Disponible"
+    },
+    "fileflows": {
+        "queue": "Cola",
+        "processing": "Procesando",
+        "processed": "Procesado",
+        "time": "Tiempo"
+    },
+    "grafana": {
+        "dashboards": "Dashboards",
+        "datasources": "Data Sources",
+        "totalalerts": "Total Alerts",
+        "alertstriggered": "Alerts Triggered"
     }
 }

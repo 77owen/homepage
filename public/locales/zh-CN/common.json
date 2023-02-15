@@ -468,5 +468,17 @@
         "uptime": "运行时间",
         "volumeAvailable": "剩余存储",
         "days": "天"
+    },
+    "fileflows": {
+        "queue": "Queue",
+        "processing": "Processing",
+        "processed": "Processed",
+        "time": "Time"
+    },
+    "grafana": {
+        "totalalerts": "Total Alerts",
+        "dashboards": "Dashboards",
+        "datasources": "Data Sources",
+        "alertstriggered": "Alerts Triggered"
     }
 }

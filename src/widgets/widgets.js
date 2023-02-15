@@ -13,6 +13,7 @@ import fileflows from "./fileflows/widget";
 import flood from "./flood/widget";
 import gluetun from "./gluetun/widget";
 import gotify from "./gotify/widget";
+import grafana from "./grafana/widget";
 import hdhomerun from "./hdhomerun/widget";
 import homebridge from "./homebridge/widget";
 import jackett from "./jackett/widget";
@@ -81,6 +82,7 @@ const widgets = {
   flood,
   gluetun,
   gotify,
+  grafana,
   hdhomerun,
   homebridge,
   jackett,
