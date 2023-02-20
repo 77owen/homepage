@@ -476,9 +476,37 @@
         "time": "Temps"
     },
     "grafana": {
-        "dashboards": "Dashboards",
-        "datasources": "Data Sources",
-        "totalalerts": "Total Alerts",
-        "alertstriggered": "Alerts Triggered"
+        "dashboards": "Tableau de bord",
+        "datasources": "Sources données",
+        "totalalerts": "Total alertes",
+        "alertstriggered": "Alertes déclenchées"
+    },
+    "nextcloud": {
+        "freespace": "Espace Libre",
+        "activeusers": "Utilisateurs Actifs",
+        "cpuload": "Charge Cpu",
+        "memoryusage": "Utilisation Mémoire"
+    },
+    "kopia": {
+        "status": "Statut",
+        "size": "Taille",
+        "lastrun": "Dernière exécution",
+        "nextrun": "Prochaine exécution",
+        "failed": "En erreur"
+    },
+    "unmanic": {
+        "active_workers": "En cours",
+        "total_workers": "Total",
+        "records_total": "En attente"
+    },
+    "healthchecks": {
+        "new": "New",
+        "up": "Online",
+        "grace": "In Grace Period",
+        "down": "Offline",
+        "paused": "Paused",
+        "status": "Status",
+        "last_ping": "Last Ping",
+        "never": "No pings yet"
     }
 }

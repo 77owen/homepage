@@ -420,10 +420,10 @@
         "series": "Serie"
     },
     "octoprint": {
-        "temp_bed": "Bed temp",
+        "temp_bed": "temperatura de la plataforma",
         "printer_state": "Status",
-        "temp_tool": "Tool temp",
-        "job_completion": "Completion"
+        "temp_tool": "Herramienta de temperatura",
+        "job_completion": "Finalización"
     },
     "cloudflared": {
         "origin_ip": "IP de origen",
@@ -477,8 +477,36 @@
     },
     "grafana": {
         "dashboards": "Dashboards",
-        "datasources": "Data Sources",
-        "totalalerts": "Total Alerts",
-        "alertstriggered": "Alerts Triggered"
+        "datasources": "Fuentes de datos",
+        "totalalerts": "Alertas totales",
+        "alertstriggered": "Alertas activadas"
+    },
+    "nextcloud": {
+        "cpuload": "Carga de la CPU",
+        "memoryusage": "Uso de la memoria",
+        "freespace": "Espacio libre",
+        "activeusers": "Usuarios activos"
+    },
+    "kopia": {
+        "status": "Estado",
+        "size": "Tamaño",
+        "lastrun": "Última ejecución",
+        "nextrun": "Siguiente ejecución",
+        "failed": "Fallido"
+    },
+    "unmanic": {
+        "active_workers": "Trabajadores en activo",
+        "total_workers": "Total de trabajadores",
+        "records_total": "Duración de la cola"
+    },
+    "healthchecks": {
+        "new": "New",
+        "up": "Online",
+        "down": "Offline",
+        "grace": "In Grace Period",
+        "paused": "Paused",
+        "status": "Status",
+        "last_ping": "Last Ping",
+        "never": "No pings yet"
     }
 }

@@ -16,9 +16,11 @@ import gotify from "./gotify/widget";
 import grafana from "./grafana/widget";
 import hdhomerun from "./hdhomerun/widget";
 import homebridge from "./homebridge/widget";
+import healthchecks from "./healthchecks/widget";
 import jackett from "./jackett/widget";
 import jellyseerr from "./jellyseerr/widget";
 import komga from "./komga/widget";
+import kopia from "./kopia/widget";
 import lidarr from "./lidarr/widget";
 import mastodon from "./mastodon/widget";
 import medusa from "./medusa/widget";
@@ -28,6 +30,7 @@ import miniflux from "./miniflux/widget";
 import moonraker from "./moonraker/widget";
 import mylar from "./mylar/widget";
 import navidrome from "./navidrome/widget";
+import nextcloud from "./nextcloud/widget";
 import nextdns from "./nextdns/widget";
 import npm from "./npm/widget";
 import nzbget from "./nzbget/widget";
@@ -65,6 +68,7 @@ import watchtower from "./watchtower/widget";
 import xteve from "./xteve/widget";
 import immich from "./immich/widget";
 import uptimekuma from "./uptimekuma/widget";
+import unmanic from "./unmanic/widget";
 
 const widgets = {
   adguard,
@@ -85,10 +89,12 @@ const widgets = {
   grafana,
   hdhomerun,
   homebridge,
+  healthchecks,
   jackett,
   jellyfin: emby,
   jellyseerr,
   komga,
+  kopia,
   lidarr,
   mastodon,
   medusa,
@@ -98,6 +104,7 @@ const widgets = {
   moonraker,
   mylar,
   navidrome,
+  nextcloud,
   nextdns,
   npm,
   nzbget,
@@ -132,6 +139,7 @@ const widgets = {
   truenas,
   unifi,
   unifi_console: unifi,
+  unmanic,
   watchtower,
   xteve,
   immich,
