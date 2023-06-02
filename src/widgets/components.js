@@ -89,6 +89,8 @@ const components = {
   watchtower: dynamic(() => import("./watchtower/component")),
   whatsupdocker: dynamic(() => import("./whatsupdocker/component")),
   xteve: dynamic(() => import("./xteve/component")),
+  realdebrid: dynamic(() => import("./owen/realdebrid/component")),
+  orionoid: dynamic(() => import("./owen/orionoid/component")),
 };
 
 export default components;

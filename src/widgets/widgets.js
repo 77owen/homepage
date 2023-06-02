@@ -83,6 +83,8 @@ import uptimekuma from "./uptimekuma/widget";
 import watchtower from "./watchtower/widget";
 import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
+import realdebrid from "./owen/realdebrid/widget";
+import orionoid from "./owen/orionoid/widget";
 
 const widgets = {
   adguard,
@@ -172,6 +174,8 @@ const widgets = {
   watchtower,
   whatsupdocker,
   xteve,
+  realdebrid,
+  orionoid,
 };
 
 export default widgets;
