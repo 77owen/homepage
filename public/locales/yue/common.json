@@ -109,7 +109,7 @@
     "lidarr": {
         "wanted": "想睇",
         "queued": "排緊隊",
-        "albums": "專輯"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "想睇",
@@ -644,5 +644,15 @@
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

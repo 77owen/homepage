@@ -126,7 +126,7 @@
     "lidarr": {
         "wanted": "కావలెను",
         "queued": "క్యూయూఎడ్",
-        "albums": "ఆల్బములు"
+        "artists": "Artists"
     },
     "bazarr": {
         "missingEpisodes": "ఎపిసోడ్‌లు లేవు",
@@ -644,5 +644,15 @@
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "totalFiles": "Files",
+        "seriesCount": "Series"
     }
 }

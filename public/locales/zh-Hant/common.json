@@ -177,7 +177,7 @@
     "lidarr": {
         "wanted": "關注中",
         "queued": "已加入佇列",
-        "albums": "專輯"
+        "artists": "Artists"
     },
     "adguard": {
         "queries": "查詢",
@@ -644,5 +644,15 @@
         "connected": "已連線",
         "new_devices": "新裝置",
         "down_alerts": "離線警告"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

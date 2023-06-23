@@ -227,7 +227,7 @@
     "lidarr": {
         "wanted": "Θέλετε",
         "queued": "Στη σειρά",
-        "albums": "Δίσκοι"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "Θέλετε",
@@ -644,5 +644,15 @@
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

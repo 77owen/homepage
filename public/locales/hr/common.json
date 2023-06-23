@@ -140,7 +140,7 @@
     "lidarr": {
         "wanted": "Zatraženo",
         "queued": "U redu čekanja",
-        "albums": "Albumi"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "Zatraženo",
@@ -644,5 +644,15 @@
         "connected": "Povezano",
         "new_devices": "Novi uređaji",
         "down_alerts": "Obavijest o rušenju"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

@@ -149,7 +149,7 @@
     "lidarr": {
         "wanted": "Dorite",
         "queued": "În coadă",
-        "albums": "Albume"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "Dorite",
@@ -644,5 +644,15 @@
         "down_alerts": "Down Alerts",
         "total": "Total",
         "connected": "Connected"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

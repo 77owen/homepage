@@ -70,7 +70,7 @@
     "lidarr": {
         "wanted": "Wanted",
         "queued": "Queued",
-        "albums": "Albums"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "Wanted",
@@ -644,5 +644,15 @@
         "transcoding": "Transcoding",
         "bitrate": "Bitrate",
         "no_active": "No Active Streams"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

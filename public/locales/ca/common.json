@@ -177,7 +177,7 @@
     "lidarr": {
         "wanted": "Volgut",
         "queued": "En cua",
-        "albums": "Àlbums"
+        "artists": "Artists"
     },
     "adguard": {
         "queries": "Consultes",
@@ -644,5 +644,15 @@
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

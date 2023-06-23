@@ -177,7 +177,7 @@
     "lidarr": {
         "wanted": "Gesucht",
         "queued": "In Warteschlange",
-        "albums": "Alben"
+        "artists": "Artists"
     },
     "adguard": {
         "queries": "Anfragen",
@@ -644,5 +644,15 @@
         "connected": "Verbunden",
         "new_devices": "Neue Geräte",
         "down_alerts": "Down Alarme"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

@@ -103,7 +103,7 @@
     "lidarr": {
         "wanted": "Eftersöker",
         "queued": "I kö",
-        "albums": "Album"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "Eftersökt",
@@ -644,5 +644,15 @@
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "totalFiles": "Files",
+        "seriesCount": "Series"
     }
 }

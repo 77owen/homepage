@@ -178,7 +178,7 @@
     "lidarr": {
         "wanted": "요청",
         "queued": "대기 중",
-        "albums": "앨범"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "요청",
@@ -644,5 +644,15 @@
         "connected": "Connected",
         "down_alerts": "Down Alerts",
         "new_devices": "New Devices"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

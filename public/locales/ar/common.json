@@ -23,7 +23,7 @@
         "free": "متاح",
         "used": "مستخدم",
         "load": "الضغط",
-        "mem": "MEM",
+        "mem": "الذاكرة",
         "temp": "TEMP",
         "max": "Max",
         "uptime": "UP",
@@ -134,7 +134,7 @@
         "episodes": "Episodes"
     },
     "changedetectionio": {
-        "totalObserved": "Total Observed",
+        "totalObserved": "مجموع الملاحظات",
         "diffsDetected": "Diffs Detected"
     },
     "tautulli": {
@@ -194,7 +194,7 @@
     "lidarr": {
         "wanted": "مطلوب",
         "queued": "في الإنتظار",
-        "albums": "ألبومات"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "مطلوب",
@@ -644,5 +644,15 @@
         "connected": "Connected",
         "new_devices": "New Devices",
         "down_alerts": "Down Alerts"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }

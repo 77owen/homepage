@@ -132,7 +132,7 @@
     "lidarr": {
         "wanted": "Aranan",
         "queued": "Kuyrukta",
-        "albums": "Albümler"
+        "artists": "Artists"
     },
     "readarr": {
         "wanted": "Aranan",
@@ -644,5 +644,15 @@
         "connected": "Bağlandı",
         "new_devices": "Yeni Cihazlar",
         "down_alerts": "Düşme Uyarıları"
+    },
+    "jdownloader": {
+        "downloadCount": "Queue Count",
+        "downloadSpeed": "Download Speed",
+        "downloadBytesRemaining": "Remaining",
+        "downloadTotalBytes": "Size"
+    },
+    "kavita": {
+        "seriesCount": "Series",
+        "totalFiles": "Files"
     }
 }
