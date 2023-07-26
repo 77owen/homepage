@@ -655,5 +655,15 @@
     "kavita": {
         "seriesCount": "Séries",
         "totalFiles": "Fichiers"
+    },
+    "azurePipelines": {
+        "result": "Résultat",
+        "status": "Statut",
+        "buildId": "Build ID",
+        "succeeded": "Réussi",
+        "notStarted": "Non démarré",
+        "failed": "Échoué",
+        "canceled": "Annulé",
+        "inProgress": "En cours"
     }
 }
