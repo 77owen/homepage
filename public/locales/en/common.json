@@ -665,7 +665,7 @@
         "seriesCount": "Series",
         "totalFiles": "Files"
     },
-    "azurePipelines": {
+    "azuredevops": {
         "result": "Result",
         "status": "Status",
         "buildId": "Build ID",
@@ -673,7 +673,10 @@
         "notStarted": "Not Started",
         "failed": "Failed",
         "canceled": "Canceled",
-        "inProgress": "In Progress"
+        "inProgress": "In Progress",
+        "totalPrs": "Total PRs",
+        "myPrs": "My PRs",
+        "approved": "Approved"
     },
     "gamedig": {
         "name": "Name",
@@ -683,5 +686,11 @@
         "maxPlayers": "Max players",
         "bots": "Bots",
         "ping": "Ping"
+    },
+    "urbackup": {
+        "ok" : "Ok",
+        "errored": "Errors",
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage"
     }
 }
