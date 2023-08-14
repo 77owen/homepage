@@ -248,7 +248,13 @@
         "warn": "Figyelmeztet",
         "total": "Összes",
         "free": "Szabad",
-        "used": "Felhasznált"
+        "used": "Felhasznált",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "changedetectionio": {
         "totalObserved": "Összes Megfigyelt",
@@ -663,7 +669,10 @@
         "currentPlayers": "Current players",
         "players": "Players",
         "maxPlayers": "Max players",
-        "bots": "Bots"
+        "bots": "Bots",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
     },
     "azuredevops": {
         "status": "Status",
@@ -683,5 +692,13 @@
         "errored": "Errors",
         "noRecent": "Out of Date",
         "totalUsed": "Used Storage"
+    },
+    "openmediavault": {
+        "downloading": "Downloading",
+        "total": "Total",
+        "running": "Running",
+        "stopped": "Stopped",
+        "passed": "Passed",
+        "failed": "Failed"
     }
 }

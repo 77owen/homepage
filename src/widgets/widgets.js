@@ -19,6 +19,7 @@ import flood from "./flood/widget";
 import freshrss from "./freshrss/widget";
 import gamedig from "./gamedig/widget";
 import ghostfolio from "./ghostfolio/widget";
+import glances from "./glances/widget";
 import gluetun from "./gluetun/widget";
 import gotify from "./gotify/widget";
 import grafana from "./grafana/widget";
@@ -39,6 +40,7 @@ import medusa from "./medusa/widget";
 import minecraft from "./minecraft/widget";
 import miniflux from "./miniflux/widget";
 import mikrotik from "./mikrotik/widget";
+import mjpeg from "./mjpeg/widget";
 import moonraker from "./moonraker/widget";
 import mylar from "./mylar/widget";
 import navidrome from "./navidrome/widget";
@@ -51,6 +53,7 @@ import omada from "./omada/widget";
 import ombi from "./ombi/widget";
 import opnsense from "./opnsense/widget";
 import overseerr from "./overseerr/widget";
+import openmediavault from "./openmediavault/widget";
 import paperlessngx from "./paperlessngx/widget";
 import pfsense from "./pfsense/widget";
 import photoprism from "./photoprism/widget";
@@ -113,6 +116,7 @@ const widgets = {
   freshrss,
   gamedig,
   ghostfolio,
+  glances,
   gluetun,
   gotify,
   grafana,
@@ -134,6 +138,7 @@ const widgets = {
   minecraft,
   miniflux,
   mikrotik,
+  mjpeg,
   moonraker,
   mylar,
   navidrome,
@@ -146,6 +151,7 @@ const widgets = {
   ombi,
   opnsense,
   overseerr,
+  openmediavault,
   paperlessngx,
   pfsense,
   photoprism,

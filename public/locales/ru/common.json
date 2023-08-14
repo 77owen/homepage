@@ -16,11 +16,11 @@
         "free": "Свободно",
         "used": "Использовано",
         "load": "Загрузка",
-        "cpu": "Процессор",
-        "mem": "Память",
-        "temp": "Температура",
+        "cpu": "ЦП",
+        "mem": "ОЗУ",
+        "temp": "Темпер.",
         "max": "Макс.",
-        "uptime": "UP",
+        "uptime": "Работает",
         "months": "мес",
         "days": "д",
         "hours": "ч",
@@ -248,7 +248,13 @@
         "warn": "Warn",
         "total": "Total",
         "free": "Free",
-        "used": "Used"
+        "used": "Used",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "changedetectionio": {
         "totalObserved": "Всего наблюдаемых",
@@ -663,7 +669,10 @@
         "players": "Players",
         "maxPlayers": "Max players",
         "bots": "Bots",
-        "ping": "Ping"
+        "ping": "Ping",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
     },
     "azuredevops": {
         "result": "Result",
@@ -683,5 +692,13 @@
         "errored": "Errors",
         "noRecent": "Out of Date",
         "totalUsed": "Used Storage"
+    },
+    "openmediavault": {
+        "downloading": "Downloading",
+        "total": "Total",
+        "passed": "Passed",
+        "failed": "Failed",
+        "running": "Running",
+        "stopped": "Stopped"
     }
 }

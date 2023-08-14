@@ -248,7 +248,13 @@
         "warn": "Advertir",
         "total": "Total",
         "free": "Libre",
-        "used": "Utilizado"
+        "used": "Utilizado",
+        "crit": "Crít.",
+        "read": "Leer",
+        "write": "Escribir",
+        "gpu": "GPU",
+        "mem": "Memoria",
+        "swap": "Intercambiar"
     },
     "changedetectionio": {
         "totalObserved": "Total Observados",
@@ -663,25 +669,36 @@
         "players": "Jugadores",
         "maxPlayers": "Jugadores máximos",
         "bots": "Bots",
-        "ping": "Ping"
+        "ping": "Ping",
+        "status": "Estado",
+        "online": "En línea",
+        "offline": "Sin conexión"
     },
     "azuredevops": {
-        "result": "Result",
-        "status": "Status",
-        "buildId": "Build ID",
-        "succeeded": "Succeeded",
-        "notStarted": "Not Started",
-        "failed": "Failed",
-        "canceled": "Canceled",
-        "inProgress": "In Progress",
-        "totalPrs": "Total PRs",
-        "myPrs": "My PRs",
-        "approved": "Approved"
+        "result": "Resultado",
+        "status": "Estado",
+        "buildId": "Identificador de la construcción",
+        "succeeded": "Exitoso",
+        "notStarted": "Sin empezar",
+        "failed": "Fallido",
+        "canceled": "Cancelado",
+        "inProgress": "En curso",
+        "totalPrs": "RP totales",
+        "myPrs": "Mis logros",
+        "approved": "Aprobados"
     },
     "urbackup": {
-        "ok": "Ok",
-        "errored": "Errors",
-        "noRecent": "Out of Date",
-        "totalUsed": "Used Storage"
+        "ok": "De acuerdo",
+        "errored": "Errores",
+        "noRecent": "Caducado",
+        "totalUsed": "Almacenamiento usado"
+    },
+    "openmediavault": {
+        "running": "Running",
+        "downloading": "Downloading",
+        "total": "Total",
+        "stopped": "Stopped",
+        "passed": "Passed",
+        "failed": "Failed"
     }
 }

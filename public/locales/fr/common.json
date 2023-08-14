@@ -248,7 +248,13 @@
         "warn": "Alerte",
         "total": "Total",
         "free": "Libre",
-        "used": "Utilisé"
+        "used": "Utilisé",
+        "crit": "Crit.",
+        "read": "Lect.",
+        "write": "Écrit.",
+        "gpu": "GPU",
+        "mem": "Mém.",
+        "swap": "Swap"
     },
     "changedetectionio": {
         "totalObserved": "Total Observé",
@@ -663,7 +669,10 @@
         "players": "Joueurs",
         "maxPlayers": "Joueurs max",
         "bots": "Bots",
-        "ping": "Ping"
+        "ping": "Ping",
+        "status": "Statut",
+        "online": "En ligne",
+        "offline": "Hors ligne"
     },
     "azuredevops": {
         "result": "Résultat",
@@ -680,8 +689,16 @@
     },
     "urbackup": {
         "ok": "Ok",
-        "errored": "Erreurs",
+        "errored": "Erreur",
         "noRecent": "Obsolète",
         "totalUsed": "Esp. Utilisé"
+    },
+    "openmediavault": {
+        "downloading": "Downloading",
+        "total": "Total",
+        "running": "Running",
+        "stopped": "Stopped",
+        "passed": "Passed",
+        "failed": "Failed"
     }
 }

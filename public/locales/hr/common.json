@@ -248,7 +248,13 @@
         "load": "Opterećenje",
         "warn": "Upozori",
         "total": "Ukupno",
-        "free": "Slobodno"
+        "free": "Slobodno",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "changedetectionio": {
         "totalObserved": "Ukupno promatrano",
@@ -663,7 +669,10 @@
         "players": "Players",
         "maxPlayers": "Max players",
         "bots": "Bots",
-        "ping": "Ping"
+        "ping": "Ping",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
     },
     "azuredevops": {
         "result": "Result",
@@ -683,5 +692,13 @@
         "totalUsed": "Used Storage",
         "ok": "Ok",
         "errored": "Errors"
+    },
+    "openmediavault": {
+        "downloading": "Downloading",
+        "total": "Total",
+        "running": "Running",
+        "stopped": "Stopped",
+        "passed": "Passed",
+        "failed": "Failed"
     }
 }
