@@ -700,5 +700,17 @@
         "failed": "Failed",
         "running": "Running",
         "stopped": "Stopped"
+    },
+    "mealie": {
+        "recipes": "Recipes",
+        "users": "Users",
+        "categories": "Categories",
+        "tags": "Tags"
+    },
+    "atsumeru": {
+        "series": "Серии",
+        "archives": "Архивы",
+        "chapters": "Главы",
+        "categories": "Категории"
     }
 }
