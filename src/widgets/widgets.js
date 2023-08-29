@@ -6,10 +6,12 @@ import autobrr from "./autobrr/widget";
 import azuredevops from "./azuredevops/widget";
 import bazarr from "./bazarr/widget";
 import caddy from "./caddy/widget";
+import calibreweb from "./calibreweb/widget";
 import changedetectionio from "./changedetectionio/widget";
 import channelsdvrserver from "./channelsdvrserver/widget";
 import cloudflared from "./cloudflared/widget";
 import coinmarketcap from "./coinmarketcap/widget";
+import customapi from "./customapi/widget";
 import deluge from "./deluge/widget";
 import diskstation from "./diskstation/widget";
 import downloadstation from "./downloadstation/widget";
@@ -89,6 +91,7 @@ import truenas from "./truenas/widget";
 import unifi from "./unifi/widget";
 import unmanic from "./unmanic/widget";
 import uptimekuma from "./uptimekuma/widget";
+import uptimerobot from "./uptimerobot/widget";
 import watchtower from "./watchtower/widget";
 import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
@@ -105,10 +108,12 @@ const widgets = {
   azuredevops,
   bazarr,
   caddy,
+  calibreweb,
   changedetectionio,
   channelsdvrserver,
   cloudflared,
   coinmarketcap,
+  customapi,
   deluge,
   diskstation,
   downloadstation,
@@ -190,6 +195,7 @@ const widgets = {
   unifi_console: unifi,
   unmanic,
   uptimekuma,
+  uptimerobot,
   urbackup,
   watchtower,
   whatsupdocker,

@@ -712,5 +712,25 @@
         "chapters": "Chapters",
         "categories": "Categories",
         "series": "Series"
+    },
+    "calibreweb": {
+        "categories": "Categories",
+        "series": "Series",
+        "books": "Books",
+        "authors": "Authors"
+    },
+    "uptimerobot": {
+        "seemsdown": "Seems Down",
+        "status": "Status",
+        "uptime": "Uptime",
+        "lastDown": "Last Downtime",
+        "downDuration": "Downtime Duration",
+        "sitesUp": "Sites Up",
+        "sitesDown": "Sites Down",
+        "paused": "Paused",
+        "notyetchecked": "Not Yet Checked",
+        "up": "Up",
+        "down": "Down",
+        "unknown": "Unknown"
     }
 }
