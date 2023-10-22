@@ -18,7 +18,7 @@
         "load": "Загрузка",
         "cpu": "ЦП",
         "mem": "ОЗУ",
-        "temp": "Темпер.",
+        "temp": "Температура",
         "max": "Макс.",
         "uptime": "Работает",
         "months": "мес",
@@ -254,7 +254,8 @@
         "write": "Write",
         "gpu": "GPU",
         "mem": "Mem",
-        "swap": "Swap"
+        "swap": "Swap",
+        "_temp": "Temp"
     },
     "changedetectionio": {
         "totalObserved": "Всего наблюдаемых",
@@ -381,7 +382,9 @@
     },
     "ping": {
         "error": "Ошибка",
-        "ping": "Пинг"
+        "ping": "Пинг",
+        "up": "Up",
+        "down": "Down"
     },
     "scrutiny": {
         "failed": "Неудачно",
@@ -732,5 +735,16 @@
         "seemsdown": "Seems Down",
         "down": "Down",
         "unknown": "Unknown"
+    },
+    "opendtu": {
+        "relativePower": "Power %",
+        "yieldDay": "Today",
+        "limit": "Limit",
+        "absolutePower": "Power"
+    },
+    "calendar": {
+        "physicalRelease": "Physical release",
+        "inCinemas": "In cinemas",
+        "digitalRelease": "Digital release"
     }
 }

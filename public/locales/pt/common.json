@@ -267,7 +267,8 @@
         "write": "Write",
         "gpu": "GPU",
         "mem": "Mem",
-        "swap": "Swap"
+        "swap": "Swap",
+        "_temp": "Temp"
     },
     "changedetectionio": {
         "totalObserved": "Total Observado",
@@ -394,7 +395,9 @@
     },
     "ping": {
         "error": "Erro",
-        "ping": "Tempo de resposta"
+        "ping": "Tempo de resposta",
+        "up": "Up",
+        "down": "Down"
     },
     "scrutiny": {
         "passed": "Aprovado",
@@ -741,5 +744,16 @@
         "paused": "Paused",
         "notyetchecked": "Not Yet Checked",
         "up": "Up"
+    },
+    "opendtu": {
+        "relativePower": "Power %",
+        "yieldDay": "Today",
+        "limit": "Limit",
+        "absolutePower": "Power"
+    },
+    "calendar": {
+        "physicalRelease": "Physical release",
+        "inCinemas": "In cinemas",
+        "digitalRelease": "Digital release"
     }
 }

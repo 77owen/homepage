@@ -15,19 +15,23 @@ const pointsLimit = 15;
 export default function Component({ service }) {
   const { t } = useTranslation();
   const { widget } = service;
-  const [, diskName] = widget.metric.split(':');
+  const { chart } = widget;
+  const [, diskName] = widget.metric.split(":");
 
-  const [dataPoints, setDataPoints] = useState(new Array(pointsLimit).fill({ read_bytes: 0, write_bytes: 0, time_since_update: 0 }, 0, pointsLimit));
+  const [dataPoints, setDataPoints] = useState(
+    new Array(pointsLimit).fill({ read_bytes: 0, write_bytes: 0, time_since_update: 0 }, 0, pointsLimit),
+  );
   const [ratePoints, setRatePoints] = useState(new Array(pointsLimit).fill({ a: 0, b: 0 }, 0, pointsLimit));
 
-  const { data, error } = useWidgetAPI(service.widget, 'diskio', {
+  const { data, error } = useWidgetAPI(service.widget, "diskio", {
     refreshInterval: 1000,
   });
 
-  const calculateRates = (d) => d.map(item => ({
-              a: item.read_bytes / item.time_since_update,
-              b: item.write_bytes / item.time_since_update
-          }));
+  const calculateRates = (d) =>
+    d.map((item) => ({
+      a: item.read_bytes / item.time_since_update,
+      b: item.write_bytes / item.time_since_update,
+    }));
 
   useEffect(() => {
     if (data) {
@@ -35,10 +39,10 @@ export default function Component({ service }) {
 
       setDataPoints((prevDataPoints) => {
         const newDataPoints = [...prevDataPoints, diskData];
-          if (newDataPoints.length > pointsLimit) {
-              newDataPoints.shift();
-          }
-          return newDataPoints;
+        if (newDataPoints.length > pointsLimit) {
+          newDataPoints.shift();
+        }
+        return newDataPoints;
       });
     }
   }, [data, diskName]);
@@ -48,49 +52,67 @@ export default function Component({ service }) {
   }, [dataPoints]);
 
   if (error) {
-    return <Container><Error error={error} /></Container>;
+    return (
+      <Container chart={chart}>
+        <Error error={error} />
+      </Container>
+    );
   }
 
   if (!data) {
-    return <Container><Block position="bottom-3 left-3">-</Block></Container>;
+    return (
+      <Container chart={chart}>
+        <Block position="bottom-3 left-3">-</Block>
+      </Container>
+    );
   }
 
   const diskData = data.find((item) => item.disk_name === diskName);
 
   if (!diskData) {
-    return <Container><Block position="bottom-3 left-3">-</Block></Container>;
+    return (
+      <Container chart={chart}>
+        <Block position="bottom-3 left-3">-</Block>
+      </Container>
+    );
   }
 
   const diskRates = calculateRates(dataPoints);
   const currentRate = diskRates[diskRates.length - 1];
 
   return (
-    <Container>
-      <ChartDual
-        dataPoints={ratePoints}
-        label={[t("glances.read"), t("glances.write")]}
-        max={diskData.critical}
-        formatter={(value) => t("common.bitrate", {
-          value,
-          })}
-      />
+    <Container chart={chart}>
+      {chart && (
+        <ChartDual
+          dataPoints={ratePoints}
+          label={[t("glances.read"), t("glances.write")]}
+          max={diskData.critical}
+          formatter={(value) =>
+            t("common.bitrate", {
+              value,
+            })
+          }
+        />
+      )}
 
       {currentRate && !error && (
-        <Block position="bottom-3 left-3">
-          <div className="text-xs opacity-50">
+        <Block position={chart ? "bottom-3 left-3" : "bottom-3 right-3"}>
+          <div className="text-xs opacity-50 text-right">
             {t("common.bitrate", {
               value: currentRate.a,
-            })} {t("glances.read")}
+            })}{" "}
+            {t("glances.read")}
           </div>
-          <div className="text-xs opacity-50">
+          <div className="text-xs opacity-50 text-right">
             {t("common.bitrate", {
               value: currentRate.b,
-            })} {t("glances.write")}
+            })}{" "}
+            {t("glances.write")}
           </div>
         </Block>
       )}
 
-      <Block position="bottom-3 right-3">
+      <Block position={chart ? "bottom-3 right-3" : "bottom-3 left-3"}>
         <div className="text-xs opacity-75">
           {t("common.bitrate", {
             value: currentRate.a + currentRate.b,
