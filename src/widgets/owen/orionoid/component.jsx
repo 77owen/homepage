@@ -38,5 +38,4 @@ export default function Component({ service }) {
       <Block label="Usage" value={usage} />
     </Container>
   );
-
 }
