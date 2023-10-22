@@ -28,7 +28,7 @@ export default function Component({ service }) {
   return (
     <Container service={service}>
       <Block label="Account" value={acccountType} />
-      <Block label="Days Left" value={t("common.number", { value: Math.ceil(userInfo.premium/(3600*24)) })} />
+      <Block label="Days Left" value={t("common.number", { value: Math.ceil(userInfo.premium / (3600 * 24)) })} />
       <Block label="Points" value={t("common.number", { value: userInfo.points })} />
     </Container>
   );

@@ -25,10 +25,12 @@ export default function Component({ service }) {
   }
 
   const acccountType = userInfo.data.subscription.package.type;
-  const expirationDate = new Date(userInfo.data.subscription.time.expiration*1000); // expiration date comes as a UNIX timestamp
+  const expirationDate = new Date(userInfo.data.subscription.time.expiration * 1000); // expiration date comes as a UNIX timestamp
   const date = new Date();
-  const timeLeft = Math.ceil((expirationDate.getTime() - date.getTime())/(1000*3600*24)) // convert to days
-  const usage = `${Math.trunc(userInfo.data.requests.streams.daily.used / userInfo.data.requests.streams.daily.limit * 100)} %`; // get percentage
+  const timeLeft = Math.ceil((expirationDate.getTime() - date.getTime()) / (1000 * 3600 * 24)); // convert to days
+  const usage = `${Math.trunc(
+    (userInfo.data.requests.streams.daily.used / userInfo.data.requests.streams.daily.limit) * 100,
+  )} %`; // get percentage  
   return (
     <Container service={service}>
       <Block label="Account" value={acccountType.charAt(0).toUpperCase() + acccountType.slice(1)} />
@@ -36,4 +38,4 @@ export default function Component({ service }) {
       <Block label="Usage" value={usage} />
     </Container>
   );
-}
+} 
