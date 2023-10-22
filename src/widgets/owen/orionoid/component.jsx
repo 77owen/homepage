@@ -30,12 +30,13 @@ export default function Component({ service }) {
   const timeLeft = Math.ceil((expirationDate.getTime() - date.getTime()) / (1000 * 3600 * 24)); // convert to days
   const usage = `${Math.trunc(
     (userInfo.data.requests.streams.daily.used / userInfo.data.requests.streams.daily.limit) * 100,
-  )} %`; // get percentage  
+  )} %`; // get percentage
   return (
     <Container service={service}>
       <Block label="Account" value={acccountType.charAt(0).toUpperCase() + acccountType.slice(1)} />
-      <Block label="Days Left" value={t("common.number", { value: timeLeft})} />
+      <Block label="Days Left" value={t("common.number", { value: timeLeft })} />
       <Block label="Usage" value={usage} />
     </Container>
   );
-} 
+
+}
