@@ -103,6 +103,8 @@ import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 import urbackup from "./urbackup/widget";
 import romm from "./romm/widget";
+import realdebrid from "./owen/realdebrid/widget";
+import orionoid from "./owen/orionoid/widget";
 
 const widgets = {
   adguard,
