@@ -121,6 +121,7 @@ const components = {
   xteve: dynamic(() => import("./xteve/component")),
   realdebrid: dynamic(() => import("./owen/realdebrid/component")),
   orionoid: dynamic(() => import("./owen/orionoid/component")),
+  bitmagnet: dynamic(() => import("./owen/bitmagnet/component")),
 };
 
 export default components;

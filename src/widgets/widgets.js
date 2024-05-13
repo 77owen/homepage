@@ -113,6 +113,7 @@ import urbackup from "./urbackup/widget";
 import romm from "./romm/widget";
 import realdebrid from "./owen/realdebrid/widget";
 import orionoid from "./owen/orionoid/widget";
+import bitmagnet from "./owen/bitmagnet/widget";
 
 const widgets = {
   adguard,
@@ -233,6 +234,7 @@ const widgets = {
   xteve,
   realdebrid,
   orionoid,
+  bitmagnet,
 };
 
 export default widgets;
