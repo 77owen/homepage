@@ -94,6 +94,7 @@ import sonarr from "./sonarr/widget";
 import speedtest from "./speedtest/widget";
 import stash from "./stash/widget";
 import strelaysrv from "./strelaysrv/widget";
+import swagdashboard from "./swagdashboard/widget";
 import tailscale from "./tailscale/widget";
 import tandoor from "./tandoor/widget";
 import tautulli from "./tautulli/widget";
@@ -107,6 +108,7 @@ import unmanic from "./unmanic/widget";
 import uptimekuma from "./uptimekuma/widget";
 import uptimerobot from "./uptimerobot/widget";
 import watchtower from "./watchtower/widget";
+import wgeasy from "./wgeasy/widget";
 import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 import urbackup from "./urbackup/widget";
@@ -215,6 +217,7 @@ const widgets = {
   speedtest,
   stash,
   strelaysrv,
+  swagdashboard,
   tailscale,
   tandoor,
   tautulli,
@@ -230,6 +233,7 @@ const widgets = {
   uptimerobot,
   urbackup,
   watchtower,
+  wgeasy,
   whatsupdocker,
   xteve,
   realdebrid,
