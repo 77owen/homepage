@@ -48,6 +48,8 @@ import komga from "./komga/widget";
 import kopia from "./kopia/widget";
 import lidarr from "./lidarr/widget";
 import linkwarden from "./linkwarden/widget";
+import lubelogger from "./lubelogger/widget";
+import mailcow from "./mailcow/widget";
 import mastodon from "./mastodon/widget";
 import mealie from "./mealie/widget";
 import medusa from "./medusa/widget";
@@ -103,6 +105,7 @@ import swagdashboard from "./swagdashboard/widget";
 import tailscale from "./tailscale/widget";
 import tandoor from "./tandoor/widget";
 import tautulli from "./tautulli/widget";
+import technitium from "./technitium/widget";
 import tdarr from "./tdarr/widget";
 import traefik from "./traefik/widget";
 import transmission from "./transmission/widget";
@@ -112,12 +115,14 @@ import unifi from "./unifi/widget";
 import unmanic from "./unmanic/widget";
 import uptimekuma from "./uptimekuma/widget";
 import uptimerobot from "./uptimerobot/widget";
+import vikunja from "./vikunja/widget";
 import watchtower from "./watchtower/widget";
 import wgeasy from "./wgeasy/widget";
 import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 import urbackup from "./urbackup/widget";
 import romm from "./romm/widget";
+import zabbix from "./zabbix/widget";
 import realdebrid from "./owen/realdebrid/widget";
 import orionoid from "./owen/orionoid/widget";
 import bitmagnet from "./owen/bitmagnet/widget";
@@ -174,6 +179,8 @@ const widgets = {
   kopia,
   lidarr,
   linkwarden,
+  lubelogger,
+  mailcow,
   mastodon,
   mealie,
   medusa,
@@ -231,6 +238,7 @@ const widgets = {
   tailscale,
   tandoor,
   tautulli,
+  technitium,
   tdarr,
   traefik,
   transmission,
@@ -242,13 +250,11 @@ const widgets = {
   uptimekuma,
   uptimerobot,
   urbackup,
+  vikunja,
   watchtower,
   wgeasy,
   whatsupdocker,
   xteve,
-  realdebrid,
-  orionoid,
-  bitmagnet,
 };
 
 export default widgets;
