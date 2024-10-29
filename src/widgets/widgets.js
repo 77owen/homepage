@@ -258,7 +258,7 @@ const widgets = {
   zabbix,
   realdebrid,
   orionoid,
-  bitmagnet
+  bitmagnet,
 };
 
 export default widgets;
