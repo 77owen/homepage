@@ -255,6 +255,10 @@ const widgets = {
   wgeasy,
   whatsupdocker,
   xteve,
+  zabbix,
+  realdebrid,
+  orionoid,
+  bitmagnet
 };
 
 export default widgets;
